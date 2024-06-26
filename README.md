@@ -1,2 +1,2 @@
 # linked-blog-starter-md
-These are the markdown files for the [linked-blog-starter](https://github.com/matthewwong525/linked-blog-starter) repository
+Just obsidian notes about Coding, c#, ect. using github to share and bypass a paid feature
