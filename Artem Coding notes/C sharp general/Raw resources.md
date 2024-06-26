@@ -1,0 +1,23 @@
+- [Microsoft Learn C#](https://dotnet.microsoft.com/en-us/learn/csharp).
+- [Microsoft C# Fundamentals for Absolute Beginners](https://learn.microsoft.com/en-us/shows/c-fundamentals-for-absolute-beginners/).
+- [Microsoft C# 101](https://learn.microsoft.com/en-us/shows/csharp-101/)
+- [Udemy C# for Beginners — Coding From Scratch (.NET Core)](https://www.udemy.com/course/c-and-net-core-for-beginners/)
+- [C# Basics for Beginners: Learn C# Fundamentals by Coding](https://www.udemy.com/course/csharp-tutorial-for-beginners/)
+- Learn [dotnet CLI](https://docs.microsoft.com/dotnet/core/tools)
+- [Learn.NET official Microsoft tutorials](https://dotnet.microsoft.com/en-us/learn)
+- [Dot Net Perls](https://www.dotnetperls.com/s#c#) — Many code examples in C#
+- [Become a Full-stack .NET Developer — Advanced Topics](https://www.pluralsight.com/courses/full-stack-dot-net-developer)
+- Advanced concepts:
+- [Async/Await](https://devblogs.microsoft.com/dotnet/how-async-await-really-works/) by Stephen Toub
+- [Threading in C#](https://www.albahari.com/threading/) by Joseph Albahari
+
+- Learn [Git](https://newsletter.techworld-with-milan.com/p/how-to-learn-git)
+- Learn [HTTP(S) protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+- Learn [Data Structures & Algorithms](https://amzn.to/3LTsZ6o)
+- Learn [Clean Code](https://amzn.to/3Qdj91J)
+- Learn [Refactoring](https://www.pluralsight.com/courses/refactoring-fundamentals) fundamentals
+- Learn [Design Patterns from the book](https://amzn.to/3QcVQVS) or [video tutorials](https://www.pluralsight.com/paths/design-patterns-in-c)
+- Learn [Main software design](https://newsletter.techworld-with-milan.com/p/main-software-design-principles-you) principles
+- Learn [SOLID](https://www.pluralsight.com/courses/principles-oo-design) principles of OO Design in depth.
+- Learn [Fundamentals of Software Architectures](https://amzn.to/3rEtJWh)
+- Learn [Microservices](https://microservices.io/) and [DAPR](https://dapr.io/)
