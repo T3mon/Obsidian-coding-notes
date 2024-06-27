@@ -1,7 +1,7 @@
 - [ ] Clone a popular application
 - [ ] Minimal front end
 - [ ] ci/cd pipeline 
-- [ ] microservices, Docker
+- [ ] microservices, Docker %% Explain why %%
 - [ ] SOLID + clean code
 - [ ] Documentation
 	- [ ] System diagram
