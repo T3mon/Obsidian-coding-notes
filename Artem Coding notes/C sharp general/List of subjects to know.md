@@ -1,7 +1,7 @@
 [List](https://medium.com/@techworldwithmilan/net-developer-roadmap-2023-c1a9a102748e)
 1. **C# language features**
-	- [[Object-oriented programming]] (classes, objects, interfaces, [[Concepts of OOP#Heading 4|inheritance]] polymorphism)
-	- Variables, data types, and operators
+	- [[Object-oriented programming]] (classes, objects, interfaces, [[Concepts of OOP#Heading 4|inheritance, polymorphism]])
+	- [[Variables, data types, and operators]]
 	- Reference and value types
 	- Control flow (conditionals, loops)
 	- Generics
