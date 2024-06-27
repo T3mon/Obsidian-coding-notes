@@ -9,7 +9,7 @@
 	- Delegates and events
 	- Assemblies
 	- Collections 
-	- Async and await for asynchronous programming
+	- Async and await for asynchronous **programming**
 2.  **.NET libraries and APIs**
 	- File I/O and serialization
 	- Collections and data structures
