@@ -1,4 +1,5 @@
 [[layers levels.png]]
+
 > [!Long rant]
 > So you have level 1 which is Presentation and Infra, level 2 is Application and level 3 is Core (pretend it's not written Domain lol).
 > 
