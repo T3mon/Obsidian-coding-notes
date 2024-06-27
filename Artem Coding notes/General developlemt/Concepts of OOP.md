@@ -2,5 +2,5 @@
 ![[bwm9m69tpmp91.webp]]
 
 - **Inheritance**: Creating new classes that are based on existing classes. 
-- **Polymorphism**: Using a unified interface to call different underlying forms of methods. 
+- **Polymorphism**: Using a unified interface to call different underlying forms of methods. ![[Pasted image 20240627150104.png]]
 - **Abstraction**: Simplifying complex reality by modeling classes appropriate to the problem.

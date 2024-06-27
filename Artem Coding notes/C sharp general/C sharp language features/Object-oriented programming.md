@@ -6,3 +6,5 @@
 # Interfaces
 # Inheritance
 # Polymorphism
+
+[[Concepts of OOP|Key Concepts]]
