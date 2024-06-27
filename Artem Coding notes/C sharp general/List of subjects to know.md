@@ -8,12 +8,12 @@
 	- Exception handling
 	- Delegates and events
 	- Assemblies
-	- Collections 
+	- Collections
 	- Async and await for asynchronous **programming**
 2.  **.NET libraries and APIs**
 	- File I/O and serialization
 	- Collections and data structures
-	- Networking 
+	- Networking
 	- Multithreading and task parallelism
 	- Security and cryptography
 3.  **[General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)**

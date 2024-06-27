@@ -1,0 +1,1 @@
+![[Сsharp diagram.png]]
