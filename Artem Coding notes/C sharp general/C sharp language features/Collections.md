@@ -4,7 +4,7 @@
 **System.Collections.Concurrent (for concurrent task execution and multithreaded access)**
 
 The foundation for creating all [collections](https://learn.microsoft.com/en-us/dotnet/api/system.collections?view=net-8.0#interfaces) is the implementation of the `IEnumerator` and `IEnumerable` interfaces.
-
+![[Pasted image 20240627220434.png]]
 ---
 # System.Collections namespace:
 - **ArrayList:**  
