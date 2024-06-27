@@ -1,1 +1,2 @@
-![[Сsharp diagram.png]]
+ ![[Data-Types.webp]]
+
