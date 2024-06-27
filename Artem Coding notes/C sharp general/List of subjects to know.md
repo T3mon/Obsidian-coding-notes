@@ -1,6 +1,6 @@
-[List](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)
+[List](https://medium.com/@techworldwithmilan/net-developer-roadmap-2023-c1a9a102748e)
 2. **C# language features**
-	- Object-oriented programming (classes, objects, interfaces, inheritance, polymorphism)
+	- [[Object-oriented programming]] (classes, objects, interfaces, inheritance, polymorphism)
 	- Variables, data types, and operators
 	- Reference and value types
 	- Control flow (conditionals, loops)
@@ -16,7 +16,7 @@
 	- Networking 
 	- Multithreading and task parallelism
 	- Security and cryptography
-4.  [General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)
+4.  **[General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)**
 	- SOLID principles
 		- Single Responsibility Principle (SRP)
 		- Open/Closed Principle (OCP)
