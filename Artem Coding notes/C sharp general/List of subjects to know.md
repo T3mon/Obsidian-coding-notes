@@ -1,4 +1,5 @@
-1. **C# language features**
+[List](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)
+2. **C# language features**
 	- Object-oriented programming (classes, objects, interfaces, inheritance, polymorphism)
 	- Variables, data types, and operators
 	- Reference and value types
@@ -9,13 +10,13 @@
 	- Assemblies
 	- Collections 
 	- Async and await for asynchronous programming
-2.  **.NET libraries and APIs**
+3.  **.NET libraries and APIs**
 	- File I/O and serialization
 	- Collections and data structures
 	- Networking 
 	- Multithreading and task parallelism
 	- Security and cryptography
-3.  [General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)
+4.  [General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)
 	- SOLID principles
 		- Single Responsibility Principle (SRP)
 		- Open/Closed Principle (OCP)
@@ -30,7 +31,7 @@
 		- Composition over Inheritance
 		- The Principle of least astonishment
 		- [[Onion architecture]]
-1. **Web application fundamentals**
+5. **Web application fundamentals**
 	- HTML, CSS, and JavaScript for front-end development
 	- HTTP protocols, request/response model, and RESTful APIs
 	- Routing, middleware, authentication, and authorization
