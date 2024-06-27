@@ -5,7 +5,6 @@
 
 The foundation for creating all [collections](https://learn.microsoft.com/en-us/dotnet/api/system.collections?view=net-8.0#interfaces) is the implementation of the `IEnumerator` and `IEnumerable` interfaces.
 ![[Pasted image 20240627220434.png]]
----
 # System.Collections namespace:
 - **ArrayList:**  
     A class for a simple collection of objects. Implements the `IList`, `ICollection`, and `IEnumerable` interfaces.
