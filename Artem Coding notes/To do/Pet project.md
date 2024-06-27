@@ -1,7 +1,8 @@
 - [ ] Clone a popular application
 - [ ] Minimal front end
+- [ ] Good backend: [[List of subjects to know]] 
 - [ ] ci/cd pipeline 
-- [ ] microservices, Docker %% Explain why %%
+- [ ] microservices, Docker  %% Explain why %%
 - [ ] SOLID + clean code
 - [ ] Documentation
 	- [ ] System diagram
@@ -11,4 +12,3 @@
 - [ ] Once online treat it like a production
 	- [ ] logging
 	- [ ] monitoring
-
