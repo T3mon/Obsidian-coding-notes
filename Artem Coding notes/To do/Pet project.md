@@ -1,0 +1,14 @@
+- [ ] Clone a popular application
+- [ ] Minimal front end
+- [ ] ci/cd pipeline 
+- [ ] microservices, Docker
+- [ ] SOLID + clean code
+- [ ] Documentation
+	- [ ] System diagram
+	- [ ] User journey
+	- [ ] Api specs
+	- [ ] Guide to run the code
+- [ ] Once online treat it like a production
+	- [ ] logging
+	- [ ] monitoring
+
