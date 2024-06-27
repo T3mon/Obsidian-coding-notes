@@ -18,5 +18,6 @@
 *Method Overriding is an example of Runtime/Dynamic polymorphism*
 ![[Pasted image 20240627150104.png]] *Function overloading/Operator overloading is an example of compile time/Static polymorphism*
 
-- **Abstraction**: Simplifying complex reality by modeling classes appropriate to the problem. Implemented using abstract classes and methods. An abstract class cannot be instantiated, and must be inherited by a derived class in order to be used. Abstract classes are created using the **abstract** keyword, and **can contain both abstract and non-abstract** members. [When you add abstraction, you add coupling which can often undermine the value of the abstraction](https://www.youtube.com/watch?v=rQlMtztiAoA&ab_channel=CodeAesthetic). [[Difference Between Abstract Class And Interface In Csharp]]
+- **Abstraction**: Simplifying complex reality by modeling classes appropriate to the problem. Implemented using abstract classes and methods. An abstract class cannot be instantiated, and must be inherited by a derived class in order to be used. Abstract classes are created using the **abstract** keyword, and **can contain both abstract and non-abstract** members. [When you add abstraction, you add coupling which can often undermine the value of the abstraction](https://www.youtube.com/watch?v=rQlMtztiAoA&ab_channel=CodeAesthetic). 
+- [[Difference Between Abstract Class And Interface In Csharp]]
 

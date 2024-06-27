@@ -8,7 +8,7 @@
 	- Exception handling
 	- Delegates, events, funcs and action
 	- Assemblies
-	- Collections
+	- [[Collections]]
 	- Async and await for asynchronous **programming**
 2.  **.NET libraries and APIs**
 	- File I/O and serialization
