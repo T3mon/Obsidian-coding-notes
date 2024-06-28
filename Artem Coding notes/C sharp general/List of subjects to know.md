@@ -31,6 +31,7 @@
 		- Law of Demeter (LoD) or Principle of least knowledge
 		- Composition over Inheritance
 		- The Principle of least astonishment
+		- [[Big O]]
 		- [[Onion architecture]]
 4. **Web application fundamentals**
 	- HTML, CSS, and JavaScript for front-end development
