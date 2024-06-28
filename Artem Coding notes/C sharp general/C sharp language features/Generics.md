@@ -5,10 +5,8 @@ The C# compiler generates separate code for each specific type used in a generic
 
 ### Covariance and Contravariance for Interfaces:
 Covariance (out):
-
 - Allows using a more specific type (subtype) in place of a more general type (base type).
 - Applied to return types (output parameters).
-
 ```csharp
 public interface ICovariant<out T>
 {
@@ -33,10 +31,8 @@ static void Main()
 ```
 
 Contravariance (in):
-
 - Allows using a more general type in place of a more specific type.
 - Applied to input parameters.
-
 ```csharp 
 public interface IContravariant<in T>
 {

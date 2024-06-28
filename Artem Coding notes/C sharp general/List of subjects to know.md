@@ -4,7 +4,7 @@
 	- [[Variables, data types, and operators]]
 	- Reference and value types
 	- Control flow (conditionals, loops)
-	- Generics
+	- [[Generics]]
 	- Exception handling
 	- Delegates, events, funcs and action
 	- Assemblies
