@@ -1,8 +1,6 @@
 The C# compiler generates separate code for each specific type used in a generic class.
-
 - `GenericList<int>`: replaces `T` with `int`.
 - `GenericList<string>`: replaces `T` with `string`.
-
 ### Covariance and Contravariance for Interfaces:
 Covariance (out):
 - Allows using a more specific type (subtype) in place of a more general type (base type).
