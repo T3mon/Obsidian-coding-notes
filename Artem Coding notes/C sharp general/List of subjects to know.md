@@ -33,10 +33,10 @@
 		- The Principle of least astonishment
 		- [[Big O]]
 		- [[Onion architecture]]
-4. **Databases**
+4. **[Databases](https://github.com/milanm/DotNet-Developer-Roadmap#5-databases)**
 	- Basics of Database design (normal forms, keys, relationships, Difference Between Inner, Left, Right, and Full Join)
 	- SQL Queries Execution Order
-	- Query Optimizer
+	- Query Optimizer and indexes
 	- Relational and NoSQL databases
 	- GraphQL
 5. **Web application fundamentals**
