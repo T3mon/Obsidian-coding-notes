@@ -1,4 +1,4 @@
-![[Pasted image 20240628175607.jpg]][Big O](https://www.youtube.com/watch?v=XMUe3zFhM5c&ab_channel=BroCode) notation helps to:
+![[Pasted image 20240629185440.png]][Big O](https://www.youtube.com/watch?v=XMUe3zFhM5c&ab_channel=BroCode) notation helps to:
 - **Compare Algorithms**: It provides a way to compare the efficiency of different algorithms.
 - **Predict Performance**: It helps in predicting how an algorithm will perform as the input size increases.
 ### Common Big O Notations
