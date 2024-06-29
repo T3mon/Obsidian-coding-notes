@@ -33,13 +33,13 @@
 		- The Principle of least astonishment
 		- [[Big O]]
 		- [[Onion architecture]]
-4. *Databases*
+4. **Databases**
 	- Basics of Database design (normal forms, keys, relationships, Difference Between Inner, Left, Right, and Full Join)
 	- SQL Queries Execution Order
 	- Query Optimizer
 	- Relational and NoSQL databases
 	- GraphQL
-5. Web application fundamentals**
+5. **Web application fundamentals**
 	- HTML, CSS, and JavaScript for front-end development
 	- HTTP protocols, request/response model, and RESTful APIs
 	- Routing, middleware, authentication, and authorization
