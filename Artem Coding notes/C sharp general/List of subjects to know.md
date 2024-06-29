@@ -9,7 +9,7 @@
 	- Delegates, events, funcs and action
 	- Assemblies
 	- [[Collections]]
-	- Async and await for asynchronous **programming**
+	- Async and await for asynchronous programming
 2.  **.NET libraries and APIs**
 	- File I/O and serialization
 	- Collections and data structures
@@ -36,7 +36,8 @@
 4. **[Databases](https://github.com/milanm/DotNet-Developer-Roadmap#5-databases)**
 	- Basics of Database design (normal forms, keys, relationships, Difference Between Inner, Left, Right, and Full Join)
 	- SQL Queries Execution Order
-	- Query Optimizer and indexes
+	- Query Optimizer
+	- Indexes and Caching
 	- Relational and NoSQL databases
 	- GraphQL
 5. **Web application fundamentals**
