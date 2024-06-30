@@ -2,7 +2,7 @@
 - **Compare Algorithms**: It provides a way to compare the efficiency of different algorithms.
 - **Predict Performance**: It helps in predicting how an algorithm will perform as the input size increases.
 ### Common Big O Notations
-1. **O(1) - Constant Time**:
+1. **O(1) - [Constant Time](<https://levelup.gitconnected.com/unlocking-coding-interview-success-mastering-big-o-notation-net-c-73b4ef1554c5#:~:text=O(1)%20%E2%80%94%20Constant%20Complexity>)**:
     - The runtime of the algorithm is constant and does not change with the input size.
     - Example: Accessing an element in an array by index.
 2. **O(log n) - Logarithmic Time**:
