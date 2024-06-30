@@ -9,4 +9,4 @@
 	7. Subset: [1:04](https://www.youtube.com/watch?v=xo7XrRVxH8Y&t=64s) 
 	8. Sliding window: [0:17](https://www.youtube.com/watch?v=xo7XrRVxH8Y&t=17s)
 - once task is solved store in to leetcode notes under certain pattern
-- try doing it LINQ way, and then without it%%  %%
+- try doing it LINQ way, and then without it

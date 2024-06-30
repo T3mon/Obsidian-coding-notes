@@ -12,3 +12,7 @@
 - [ ] Once online treat it like a production
 	- [ ] logging
 	- [ ] monitoring
+- [ ] Tech that I dont have expirience working with
+	- [ ] Dapper ORM
+	- [ ] Database witch is not sql server
+	- [ ] Some type of monetezation?
