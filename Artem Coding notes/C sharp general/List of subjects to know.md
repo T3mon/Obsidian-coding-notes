@@ -33,7 +33,7 @@
 		- Composition over Inheritance
 		- The Principle of least astonishment
 		- [[Big O]]
-		- Gang of four patterns
+		- Patterns
 		- [[Onion architecture]]
 4. **[Databases](https://github.com/milanm/DotNet-Developer-Roadmap#5-databases)**
 	- Basics of Database design (normal forms, keys, relationships, Difference Between Inner, Left, Right, and Full Join)
