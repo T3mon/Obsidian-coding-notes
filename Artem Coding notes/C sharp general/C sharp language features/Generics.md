@@ -27,7 +27,6 @@ static void Main()
 	BaseClass item = baseClass.Get();
 }
 ```
-
 Contravariance (in):
 - Allows using a more general type in place of a more specific type.
 - Applied to input parameters.
