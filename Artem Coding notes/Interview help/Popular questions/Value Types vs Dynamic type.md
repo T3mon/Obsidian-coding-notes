@@ -10,7 +10,8 @@
     - **Default Initialization**: Initialized to their default value (e.g., `0` for `int`).
 **Example:**
 ```csharp
-int a = 5; int b = a; // b is a copy of a a = 10; Console.WriteLine(b); // Outputs 5`
+int a = 5; int b = a; // b is a copy of a a = 10; Console.WriteLine(b); 
+// Outputs 5`
 ```
 ### Reference Types (Object Types)
 - **Storage**: Stored on the heap.
@@ -23,7 +24,8 @@ int a = 5; int b = a; // b is a copy of a a = 10; Console.WriteLine(b); // Outpu
     - **Default Initialization**: Initialized to `null` by default.
 **Example:**
 ```csharp
-class Person { public string Name; } Person p1 = new Person { Name = "Alice" }; Person p2 = p1; // p2 references the same object as p1 p1.Name = "Bob"; Console.WriteLine(p2.Name); // Outputs "Bob"`
+class Person { public string Name; } Person p1 = new Person { Name = "Alice" }; Person p2 = p1; // p2 references the same object as p1 p1.Name = "Bob"; Console.WriteLine(p2.Name); 
+// Outputs "Bob"`
 ```
 ### Summary Table
 
