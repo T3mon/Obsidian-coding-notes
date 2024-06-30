@@ -19,12 +19,28 @@ Choosing between using GET and POST for implementing pagination depends on vario
     - GET requests should be idempotent, meaning they do not change the state of the server, which aligns well with data retrieval requests.
 
 **Example:**
+```csharp
+[HttpGet]
+public IActionResult GetItems(int page = 1, int pageSize = 10)
+{
+    var pagedItems = _items
+        .Skip((page - 1) * pageSize)
+        .Take(pageSize)
+        .ToList();
 
-csharp
+    var response = new PageResponse<string>
+    {
+        PageNumber = page,
+        PageSize = pageSize,
+        TotalItems = _items.Count,
+        Items = pagedItems
+    };
 
-Copy code
+    return Ok(response);
+}
 
-`[HttpGet] public IActionResult GetItems(int page = 1, int pageSize = 10) {     var pagedItems = _items         .Skip((page - 1) * pageSize)         .Take(pageSize)         .ToList();      var response = new PageResponse<string>     {         PageNumber = page,         PageSize = pageSize,         TotalItems = _items.Count,         Items = pagedItems     };      return Ok(response); }`
+```
+
 
 ### Pagination with POST
 
@@ -46,11 +62,35 @@ Copy code
 
 **Example:**
 
-csharp
+```csharp
+[HttpPost("paged")]
+public IActionResult GetPagedItems([FromBody] PageRequest request)
+{
+    var pagedItems = _items
+        .Skip((request.PageNumber - 1) * request.PageSize)
+        .Take(request.PageSize)
+        .ToList();
 
-Copy code
+    var response = new PageResponse<string>
+    {
+        PageNumber = request.PageNumber,
+        PageSize = request.PageSize,
+        TotalItems = _items.Count,
+        Items = pagedItems
+    };
 
-`[HttpPost("paged")] public IActionResult GetPagedItems([FromBody] PageRequest request) {     var pagedItems = _items         .Skip((request.PageNumber - 1) * request.PageSize)         .Take(request.PageSize)         .ToList();      var response = new PageResponse<string>     {         PageNumber = request.PageNumber,         PageSize = request.PageSize,         TotalItems = _items.Count,         Items = pagedItems     };      return Ok(response); }  public class PageRequest {     public int PageNumber { get; set; }     public int PageSize { get; set; }     // Additional filtering and sorting parameters }`
+    return Ok(response);
+}
+
+public class PageRequest
+{
+    public int PageNumber { get; set; }
+    public int PageSize { get; set; }
+    // Additional filtering and sorting parameters
+}
+
+
+```
 
 ### Summary
 
