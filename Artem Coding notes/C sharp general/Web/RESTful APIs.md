@@ -1,4 +1,5 @@
 ![[rest.webp]]**An interface that two computer systems use to exchange information securely over the internetThey allow different applications to communicate with each other by making HTTP requests to access and manipulate web resources represented in a consistent format.**
+
 **Key Concepts:**
 - **Resources**: The fundamental concept of REST. Resources are identified by URLs (Uniform Resource Locators).
 - **HTTP Methods**: Commonly used methods include:
