@@ -6,7 +6,7 @@
 	- Control flow (conditionals, loops)
 	- [[Generics]]
 	- Exception handling
-	- Delegates, events, funcs and action
+	- [[Delegates, events, funcs and action]]
 	- Assemblies
 	- [[Collections]] and [[LINQ]]
 	- Async and await for asynchronous programming
