@@ -10,7 +10,7 @@
     - `HEAD` - Similar to GET but retrieves only the headers, not the body. Useful for checking metadata or if a resource has changed.
 - **Stateless**: Each request from client to server must contain all the information the server needs to fulfill the request.
 - **Representations**: Resources are represented in formats such as JSON, XML, HTML, etc.
-- **[Idempotency](https://www.youtube.com/watch?v=XAccGbtl3Z8&ab_channel=AlexHyett)**: Operations like `GET`, `PUT`, and `DELETE` should be idempotent, meaning repeated execution should yield the same result.
+- **[Idempotency](https://www.youtube.com/watch?v=XAccGbtl3Z8&ab_channel=AlexHyett)**: Operations like `GET`, `PUT`, and `DELETE` should be idempotent, meaning repeated execution should yield the same result. [[Explain idempotency]]
 **Usage:**
 - **Web Services**: Integrating different services, allowing them to communicate.
 - **Microservices Architecture**: Enabling individual services to interact.

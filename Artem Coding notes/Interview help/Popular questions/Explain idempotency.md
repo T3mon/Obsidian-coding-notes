@@ -17,7 +17,6 @@ public ActionResult<Book> GetBook(int id)
 Idempotency is guaranteed because:
 - We're only reading data, not modifying it.
 - The same ID will always return the same book (or NotFound if it doesn't exist).
-
 2. For PUT:
 ```csharp
 [HttpPut("{id}")]
@@ -37,7 +36,6 @@ Idempotency is guaranteed because:
 - We're updating an existing resource based on its ID.
 - Multiple identical updates will result in the same final state.
 - We're not creating new resources or changing the ID.
-
 3. For DELETE:
 ```csharp
 [HttpDelete("{id}")]
@@ -55,13 +53,11 @@ Idempotency is guaranteed because:
 - We first check if the book exists.
 - We only remove the book if it exists.
 - Subsequent calls for a non-existent book will just return NotFound, not changing the state.
-
-The key aspects that ensure idempotency are:
+###### The key aspects that ensure idempotency are:
 1. Using unique identifiers (like ID) to target specific resources.
 2. Checking for existence before modifying or deleting.
 3. Ensuring that repeated operations on the same resource produce the same result.
 4. Not creating new resources or side effects on repeated calls.
-
 In contrast, the POST method is typically not idempotent because it often creates new resources:
 
 ```csharp
@@ -76,5 +72,3 @@ public ActionResult<Book> CreateBook(Book book)
 This is not idempotent because:
 - Each call creates a new book with a new ID.
 - Repeated calls with the same data will create multiple books.
-
-To make POST idempotent, you'd need to implement additional logic, like checking for existing resources based on some unique attribute before creating a new one. However, this is not typical for POST operations in RESTful APIs.
