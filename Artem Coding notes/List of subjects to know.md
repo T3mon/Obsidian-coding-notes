@@ -17,14 +17,16 @@
 	- Multithreading and task parallelism
 	- Security and cryptography
 	- ORM's
+		- EF
+		- Dapper
 3.  **[General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)**
 	- [[Concepts of OOP]]
 	- SOLID principles
-		- Single Responsibility Principle (SRP)
-		- Open/Closed Principle (OCP)
-		- Liskov Substitution Principle (LSP)
-		- Interface Segregation Principle (ISP)
-		- Dependency Inversion Principle (DIP)
+		- [[Single Responsibility Principle]] (SRP)
+		- [[Open/Closed Principle]] (OCP)
+		- [[Liskov Substitution Principle]] (LSP)
+		- [[Interface Segregation Principle]] (ISP)
+		- [[Dependency Inversion Principle]] (DIP)
 	- General principles 
 		- DRY (Don’t Repeat Yourself)
 		- [[KISS]] (Keep It Simple, Stupid)
@@ -47,3 +49,4 @@
 	- HTTP protocols, request/response model, and [[RESTful APIs]]
 	- Routing, middleware, authentication, and authorization
 	- Model-View-Controller (MVC) 
+	- Java Scrip and Angular
