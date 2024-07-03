@@ -18,7 +18,7 @@
 	- Multithreading and task parallelism
 	- Security and cryptography
 	- ORM's
-		- EF
+		- Entity framework
 		- Dapper
 3.  **[General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)**
 	- [[Concepts of OOP]]
