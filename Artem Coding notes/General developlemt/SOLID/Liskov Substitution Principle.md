@@ -1,7 +1,7 @@
  ==Objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program==. In other words, a subclass should be able to substitute its parent class without causing any unexpected behavior.
 
 Let's explore this principle with examples:
-1. Correct LSP implementation:
+#### 1. Correct LSP implementation:
 ```csharp
 public abstract class Shape
 {
@@ -43,7 +43,7 @@ public class Program
 ```
 
 In this example, both Rectangle and Square inherit from Shape and implement the Area() method. They can be used interchangeably wherever a Shape is expected, adhering to the LSP.
-2. Incorrect LSP implementation:
+## 2. Incorrect LSP implementation:
 ```csharp
 public class Bird
 {
