@@ -31,7 +31,6 @@ public class Robot : IWorker
 ```
 
 In this example, Robot is forced to implement Eat() and Sleep(), which it doesn't need.
-
 ## 2. Adhering to ISP:
 ```csharp
 public interface IWorkable
@@ -63,9 +62,7 @@ public class Robot : IWorkable
 ```
 
 Now, Robot only implements the interface it needs (IWorkable), adhering to ISP.
-
-3. Another example:
-
+## 3. Another example:
 ```csharp
 public interface IPrinter
 {
