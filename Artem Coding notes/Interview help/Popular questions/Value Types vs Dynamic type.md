@@ -1,5 +1,4 @@
 ### Value Types
-
 - **Storage**: Stored on the stack.
 - **Memory Allocation**: The actual data is stored directly in the variable.
 - **Access**: Direct access to the value.
@@ -37,3 +36,4 @@ class Person { public string Name; } Person p1 = new Person { Name = "Alice" }; 
 | Assignment             | Copies the value         | Copies the reference             |
 | Default Initialization | Default value (e.g., 0)  | `null`                           |
 | Examples               | `int`, `float`, `struct` | `class`, `interface`, `delegate` |
+|                        |                          |                                  |

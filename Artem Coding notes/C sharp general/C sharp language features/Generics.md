@@ -1,3 +1,5 @@
+Provide a way to define classes, interfaces, and methods with a placeholder for the type of data they store and manipulate. They allow you to create flexible, type-safe data structures and algorithms without committing to a specific data type
+
 The C# compiler generates separate code for each specific type used in a generic class.
 - `GenericList<int>`: replaces `T` with `int`.
 - `GenericList<string>`: replaces `T` with `string`.

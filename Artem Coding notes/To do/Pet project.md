@@ -16,3 +16,7 @@
 	- [ ] Dapper ORM
 	- [ ] Database witch is not sql server
 	- [ ] Some type of monetezation?
+Opetinal:
+- Backgound tasks
+- Indexes
+- smtp, some type of email sending?

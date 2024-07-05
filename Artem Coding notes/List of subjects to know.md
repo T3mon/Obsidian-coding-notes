@@ -6,9 +6,10 @@
 	- Control flow (conditionals, loops)
 	- [[Generics]]
 	- Exception handling
-	- Delegates, events, funcs and action
+	- [[Delegates, events, funcs and action]]
 	- Assemblies
-	- [[Collections]]
+	- JIT и CLR
+	- [[Collections]] and [[LINQ]]
 	- Async and await for asynchronous programming
 2.  **.NET libraries and APIs**
 	- File I/O and serialization
@@ -17,14 +18,16 @@
 	- Multithreading and task parallelism
 	- Security and cryptography
 	- ORM's
+		- Entity framework
+		- Dapper
 3.  **[General Development Skills](https://github.com/milanm/DotNet-Developer-Roadmap#2-general-development-skills)**
 	- [[Concepts of OOP]]
 	- SOLID principles
-		- Single Responsibility Principle (SRP)
-		- Open/Closed Principle (OCP)
-		- Liskov Substitution Principle (LSP)
-		- Interface Segregation Principle (ISP)
-		- Dependency Inversion Principle (DIP)
+		- [[Single Responsibility Principle]] (SRP)
+		- [[Open Closed Principle|Open/Closed Principle]] (OCP)
+		- [[Liskov Substitution Principle]] (LSP)
+		- [[Interface Segregation Principle]] (ISP)
+		- [[Dependency Inversion Principle]] (DIP)
 	- General principles 
 		- DRY (Don’t Repeat Yourself)
 		- [[KISS]] (Keep It Simple, Stupid)
@@ -33,13 +36,13 @@
 		- Composition over Inheritance
 		- The Principle of least astonishment
 		- [[Big O]]
-		- Patterns
+		- [[Patterns]]
 		- [[Onion architecture]]
 4. **[Databases](https://github.com/milanm/DotNet-Developer-Roadmap#5-databases)**
 	- Basics of Database design (normal forms, keys, relationships, Difference Between Inner, Left, Right, and Full Join)
 	- SQL Queries Execution Order
-	- Query Optimizer
-	- Indexes and Caching
+	- Query Optimizer Indexes and Caching
+	- Transactions and ACID
 	- Relational and NoSQL databases
 	- GraphQL
 5. **Web application fundamentals**
@@ -47,3 +50,4 @@
 	- HTTP protocols, request/response model, and [[RESTful APIs]]
 	- Routing, middleware, authentication, and authorization
 	- Model-View-Controller (MVC) 
+	- Java Scrip and Angular
