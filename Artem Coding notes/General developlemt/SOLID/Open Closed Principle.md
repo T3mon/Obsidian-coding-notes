@@ -1,11 +1,9 @@
 Entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
-
 OCP is used to:
 1. Create more flexible and maintainable code
 2. Allow adding ==new functionality without changing existing code==
 3. Reduce the risk of breaking existing functionality when making changes
 4. Promote the use of abstractions and polymorphism
-
 ## 1. Without OCP:
 ```csharp
 public class Rectangle
