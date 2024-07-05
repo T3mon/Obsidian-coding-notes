@@ -22,13 +22,10 @@ public class AreaCalculator
     public double CalculateArea(object shape)
     {
         if (shape is Rectangle rectangle)
-        {
             return rectangle.Width * rectangle.Height;
-        }
         else if (shape is Circle circle)
-        {
             return Math.PI * circle.Radius * circle.Radius;
-        }
+
         throw new ArgumentException("Unsupported shape");
     }
 }
@@ -66,7 +63,6 @@ public class AreaCalculator
     
 }
 ```
-
 Now, adding a new shape doesn't require modifying AreaCalculator. We can simply create a new class that inherits from Shape.
 ## 3. Another example using interfaces:
 ```csharp
@@ -93,7 +89,6 @@ public class PriceCalculator
         discount.ApplyDiscount(originalPrice);
 }
 ```
-
 In this example, we can add new discount types without modifying the PriceCalculator class.
 ## 4. Using the Strategy pattern to adhere to OCP:
 ```csharp
@@ -123,7 +118,6 @@ public class Sorter
         _sortStrategy.Sort(list);
 }
 ```
-
 This design allows adding new sorting algorithms without modifying the Sorter class.
 
 By applying OCP, we create more flexible and extensible code that's easier to maintain and less prone to bugs when adding new functionality.
