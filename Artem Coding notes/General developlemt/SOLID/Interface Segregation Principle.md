@@ -1,12 +1,11 @@
-> "Clients should not be forced to depend on methods they do not use.'
- "Caller should not be able to see any more methods than it actually needs."
+>"Clients should not be forced to depend on methods they do not use.'
+  "Caller should not be able to see any more methods than it actually needs."
  
 It's better to have many smaller, specific interfaces rather than a few large, general-purpose ones.
 Key points of ISP:
 1. ==Break large interfaces into smaller, more specific== ones.
 2. Clients should only need to know about methods that are of interest to them.
 3. Prevents classes from implementing unnecessary methods.
-
 ## 1. Violation of ISP:
 ```csharp
 public interface IWorker

@@ -1,14 +1,11 @@
 1. High-level modules should not depend on low-level modules. Both should depend on abstractions.
 2. Abstractions should not depend on details. Details should depend on abstractions.
-
 The Dependency Inversion Principle aims to reduce the coupling between software modules by introducing abstractions between them.
-
 DIP is used to:
 1. Increase flexibility and maintainability of code
 2. Facilitate easier testing through dependency injection
 3. Promote ==loose coupling between modules==
 4. Enable easier changes and extensions to the system
-
 ## 1. Without DIP:
 ```csharp
 public class EmailNotifier
