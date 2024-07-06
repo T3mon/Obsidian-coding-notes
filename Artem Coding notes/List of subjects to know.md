@@ -50,4 +50,4 @@
 	- HTTP protocols, request/response model, and [[RESTful APIs]]
 	- Routing, middleware, authentication, and authorization
 	- Model-View-Controller (MVC) 
-	- Java Scrip and Angular
+	- Java Script and Angular
