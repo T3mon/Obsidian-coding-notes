@@ -4,13 +4,13 @@
 ### Common Big O Notations
 1. **O(1) - [Constant Time](<https://levelup.gitconnected.com/unlocking-coding-interview-success-mastering-big-o-notation-net-c-73b4ef1554c5#:~:text=O(1)%20%E2%80%94%20Constant%20Complexity>)**:
     - The runtime of the algorithm is constant and does not change with the input size.
-    - Example: Accessing an element in an array by index.
+    - Example: Accessing an element in an [[array]] by index.
 2. **O(log n) - Logarithmic Time**:
     - The runtime grows logarithmically as the input size increases. This usually happens in algorithms that divide the problem in half each time.
     - Example: Binary search.
 3. **O(n) - Linear Time**:
     - The runtime grows linearly with the input size.
-    - Example: Iterating through all elements in a list.
+    - Example: Iterating through all elements in a [[list]].
 4. **O(n log n) - Linearithmic Time**:
     - The runtime grows in proportion to nnn and log⁡n\log nlogn. This is common in efficient sorting algorithms.
     - Example: Merge sort, quicksort.
