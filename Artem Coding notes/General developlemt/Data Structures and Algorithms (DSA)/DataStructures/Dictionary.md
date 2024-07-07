@@ -67,7 +67,7 @@ Make objects immutable so that their state cannot change after creation. This en
 public class Person
 {
     public string Name { get; }
-    public int Age { get; } //AGE IS 
+    public int Age { get; } //now, age is immutable 
 
     public Person(string name, int age)
     {
