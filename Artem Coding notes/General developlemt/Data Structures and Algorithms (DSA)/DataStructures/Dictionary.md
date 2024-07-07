@@ -20,7 +20,6 @@ The most important implementation elements of the `Dictionary<TKey, TValue>`:
 
 ## GetHashCode() and Equals() override
 
-
 ### Problem Example
 
 ```csharp
@@ -36,7 +35,6 @@ person.Age = 31; // Change the Age property
 Console.WriteLine(people.Contains(person)); // False, because the hash code changed
 
 ```
-
 ### Solutions
 
 ##### Immutability:
