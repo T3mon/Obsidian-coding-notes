@@ -24,7 +24,7 @@ The most important implementation elements of the `Dictionary<TKey, TValue>`:
 ```csharp
 public class Person
 {
-    public string Name { get; set; } // NAME IS NOT IMMUTABLE
+    public string Name { get; }
     public int Age { get; set; } //AGE IS NOT IMMUTABLE
 
     public override bool Equals(object obj)
@@ -67,7 +67,7 @@ Make objects immutable so that their state cannot change after creation. This en
 public class Person
 {
     public string Name { get; }
-    public int Age { get; } 
+    public int Age { get; } //AGE IS 
 
     public Person(string name, int age)
     {
