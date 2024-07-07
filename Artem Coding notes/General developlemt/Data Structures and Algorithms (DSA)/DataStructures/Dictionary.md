@@ -45,7 +45,6 @@ public class Person
     }
 }
 ```
-
 ```csharp
 HashSet<Person> people = new HashSet<Person>();
 Person person = new Person { Name = "Alice", Age = 30 };
@@ -57,7 +56,6 @@ Console.WriteLine(people.Contains(person)); // True
 person.Age = 31; // Change the Age property
 
 Console.WriteLine(people.Contains(person)); // False, because the hash code changed
-
 ```
 ### Solutions
 
