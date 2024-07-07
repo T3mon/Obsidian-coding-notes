@@ -17,7 +17,7 @@
    - Abstract class: Can contain static members.
    - Interface: Cannot contain static members (prior to C# 8.0).
 7. Purpose:
-   - Abstract class: Used to define common behavior for a group of related objects.
+   - Abstract class: Used to define ==common behavior for a group== of related objects.
    - Interface: Used to ==define a contract that unrelated classes can implement==.
 8. Extensibility:
    - Abstract class: Harder to extend as a class already inherits from it.
