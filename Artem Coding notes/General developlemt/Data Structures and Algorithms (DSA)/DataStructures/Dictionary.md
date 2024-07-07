@@ -47,7 +47,7 @@ Make objects immutable so that their state cannot change after creation. This en
 public class Person
 {
     public string Name { get; }
-    public int Age { get; } //it is better not to make Equals() and GetHashCode() use this field 
+    public int Age { get; } 
 
     public Person(string name, int age)
     {
