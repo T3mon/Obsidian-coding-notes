@@ -59,7 +59,6 @@ public class OrderProcessor
     }
 }
 ```
-
 Now OrderProcessor depends on the INotifier abstraction, not on concrete implementations.
 
 By applying DIP, we create more flexible, maintainable, and testable code. It allows for ==easier swapping of components and facilitates better separation of concerns==.
