@@ -21,42 +21,55 @@ The most important implementation elements of the `Dictionary<TKey, TValue>`:
 ## GetHashCode() and Equals() override
 
 ### Problem Example
+
 ```csharp
-public class Person
+using System;
+using System.Collections.Generic;
+
+class Person
 {
     public string Name { get; }
-    public int Age { get; set; } //AGE IS NOT IMMUTABLE
+    public int Age { get; set; }
 
     public override bool Equals(object obj)
     {
-        if (obj == null || this.GetType() != obj.GetType())
+        if (obj == null || GetType() != obj.GetType())
             return false;
 
         Person other = (Person)obj;
-        return this.Name == other.Name && this.Age == other.Age;
+        return Name == other.Name && Age == other.Age;
     }
 
     public override int GetHashCode()
     {
-        int hash = 17;
-        hash = hash * 31 + (Name != null ? Name.GetHashCode() : 0);
-        hash = hash * 31 + Age.GetHashCode();
-        return hash;
+        unchecked
+        {
+            int hash = 17;
+            hash = hash * 31 + (Name != null ? Name.GetHashCode() : 0);
+            hash = hash * 31 + Age.GetHashCode();
+            return hash;
+        }
     }
 }
-```
 
-```csharp
-HashSet<Person> people = new HashSet<Person>();
-Person person = new Person { Name = "Alice", Age = 30 };
+class Program
+{
+    static void Main()
+    {
+        Dictionary<Person, string> people = new Dictionary<Person, string>();
+        Person person = new Person { Name = "Alice", Age = 30 };
 
-people.Add(person); // Add object to collection
+        people.Add(person, "Developer"); // Add object to collection
 
-Console.WriteLine(people.Contains(person)); // True
+        Console.WriteLine(people.ContainsKey(person)); // True
 
-person.Age = 31; // Change the Age property
+        person.Age = 31; // Change the Age property
 
-Console.WriteLine(people.Contains(person)); // False, because the hash code changed
+        Console.WriteLine(people.ContainsKey(person)); // False, because the hash code changed
+		people.Contains(p2); //false
+
+    }
+}
 
 ```
 ### Solutions
