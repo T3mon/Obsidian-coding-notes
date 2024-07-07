@@ -1,4 +1,7 @@
-Reference: [https://dotnetos.org/blog/2022-03-28-dictionary-implementation/](https://dotnetos.org/blog/2022-03-28-dictionary-implementation/ "https://dotnetos.org/blog/2022-03-28-dictionary-implementation/") ![[Pasted image 20240707160854.png]]
+#1 Reference: [https://dotnetos.org/blog/2022-03-28-dictionary-implementation/](https://dotnetos.org/blog/2022-03-28-dictionary-implementation/ "https://dotnetos.org/blog/2022-03-28-dictionary-implementation/") 
+#2 Reference: https://habr.com/ru/articles/198104/
+
+![[Pasted image 20240707160854.png]]
 
 ## Implementation
 
