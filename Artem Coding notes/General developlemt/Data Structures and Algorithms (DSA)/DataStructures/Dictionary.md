@@ -21,6 +21,30 @@ The most important implementation elements of the `Dictionary<TKey, TValue>`:
 ## GetHashCode() and Equals() override
 
 ### Problem Example
+```csharp
+public class Person
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+
+    public override bool Equals(object obj)
+    {
+        if (obj == null || this.GetType() != obj.GetType())
+            return false;
+
+        Person other = (Person)obj;
+        return this.Name == other.Name && this.Age == other.Age;
+    }
+
+    public override int GetHashCode()
+    {
+        int hash = 17;
+        hash = hash * 31 + (Name != null ? Name.GetHashCode() : 0);
+        hash = hash * 31 + Age.GetHashCode();
+        return hash;
+    }
+}
+```
 
 ```csharp
 HashSet<Person> people = new HashSet<Person>();
@@ -38,9 +62,7 @@ Console.WriteLine(people.Contains(person)); // False, because the hash code chan
 ### Solutions
 
 ##### Immutability:
-
 Make objects immutable so that their state cannot change after creation. This ensures that the hash code remains constant.
-
 ```csharp
 public class Person
 {
@@ -74,11 +96,8 @@ public class Person
     }
 }
 ```
-
-#####  Avoid Changing Significant Fields:
-
+##### Avoid Changing Significant Fields:
 If making objects immutable is not possible, avoid changing fields that are used to compute the hash code while the object is in a hash-based collection.
-
 ```csharp
 HashSet<Person> people = new HashSet<Person>();
 Person person = new Person("Alice", 30);
