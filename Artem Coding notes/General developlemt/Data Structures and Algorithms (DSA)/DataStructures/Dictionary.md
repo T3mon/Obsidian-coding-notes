@@ -51,6 +51,7 @@ class Person
         }
     }
 }
+<<<<<<< HEAD
 
 class Program
 {
@@ -58,6 +59,12 @@ class Program
     {
         Dictionary<Person, string> people = new Dictionary<Person, string>();
         Person person = new Person { Name = "Alice", Age = 30 };
+=======
+```
+```csharp
+HashSet<Person> people = new HashSet<Person>();
+Person person = new Person { Name = "Alice", Age = 30 };
+>>>>>>> origin/main
 
         people.Add(person, "Developer"); // Add object to collection
 
@@ -65,12 +72,16 @@ class Program
 
         person.Age = 31; // Change the Age property
 
+<<<<<<< HEAD
         Console.WriteLine(people.ContainsKey(person)); // False, because the hash code changed
 		people.Contains(p2); //false
 
     }
 }
 
+=======
+Console.WriteLine(people.Contains(person)); // False, because the hash code changed
+>>>>>>> origin/main
 ```
 ### Solutions
 
