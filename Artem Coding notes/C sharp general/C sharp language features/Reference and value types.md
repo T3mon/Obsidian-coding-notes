@@ -1,8 +1,7 @@
-Reference types are objects that are stored on the heap, and a reference to them is stored on the stack. When you create a reference type, you're actually creating an object on the heap, and the variable that you assign to it is just a reference to that object.
+Reference types are stored on the heap, and a reference to them is stored on the stack. When you create a reference type, you're actually creating an object on the heap, and the variable that you assign to it is just a reference to that object.
 
-Value types, on the other hand, are stored on the stack, and the value of the type is stored directly in the variable. When you create a value type, a new instance of that type is created on the stack, and the value is stored directly in that instance.
-Here's a table comparing the differences between reference types and value types in C#:
-##### DIfferences
+Value types, stored on the stack, value stored directly in the variable. When create a value type, a new instance of that type is created on the stack, and the value is stored directly in that instance.
+##### Differences
 
 | **Aspect**              | **Reference Types**                                            | **Value Types**                                                         |
 | ----------------------- | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
