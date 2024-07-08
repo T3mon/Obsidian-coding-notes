@@ -1,6 +1,16 @@
 #1 Reference: [https://dotnetos.org/blog/2022-03-28-dictionary-implementation/](https://dotnetos.org/blog/2022-03-28-dictionary-implementation/ "https://dotnetos.org/blog/2022-03-28-dictionary-implementation/") 
 #2 Reference: https://habr.com/ru/articles/198104/
 ![[Pasted image 20240707160854.png]]
+
+| Operation                           | Time Complexity                                |
+| ----------------------------------- | ---------------------------------------------- |
+| Accessing a value by key            | O(1) on average, O(n) in worst case            |
+| Adding a new key-value pair         | O(1) on average, O(n) in worst case            |
+| Updating an existing key-value pair | O(1) on average, O(n) in worst case            |
+| Checking if a key exists            | O(1) on average, O(n) in worst case            |
+| Removing a key-value pair           | O(1) on average, O(n) in worst case            |
+| Iterating over all key-value pairs  | O(n), where n is the number of key-value pairs |
+`Dictionary` class, which is based on a hash table, has an average time complexity of O(1) for most operations, and a worst-case time complexity of O(n) when there are a lot of hash collisions.
 ## Implementation
 The most important implementation elements of the `Dictionary<TKey, TValue>`:
 - `buckets` - set of elements with similar hashes
@@ -16,68 +26,42 @@ The most important implementation elements of the `Dictionary<TKey, TValue>`:
 - `_next` - describes the next item in the `bucket`
 ## GetHashCode() and Equals() override
 ### Problem Example
-
 ```csharp
-using System;
-using System.Collections.Generic;
-
-class Person
+public class Person
 {
     public string Name { get; }
-    public int Age { get; set; }
+    public int Age { get; set; } //AGE IS NOT IMMUTABLE
 
     public override bool Equals(object obj)
     {
-        if (obj == null || GetType() != obj.GetType())
+        if (obj == null || this.GetType() != obj.GetType())
             return false;
 
         Person other = (Person)obj;
-        return Name == other.Name && Age == other.Age;
+        return this.Name == other.Name && this.Age == other.Age;
     }
 
     public override int GetHashCode()
     {
-        unchecked
-        {
-            int hash = 17;
-            hash = hash * 31 + (Name != null ? Name.GetHashCode() : 0);
-            hash = hash * 31 + Age.GetHashCode();
-            return hash;
-        }
+        int hash = 17;
+        hash = hash * 31 + (Name != null ? Name.GetHashCode() : 0);
+        hash = hash * 31 + Age.GetHashCode();
+        return hash;
     }
 }
-<<<<<<< HEAD
-
-class Program
-{
-    static void Main()
-    {
-        Dictionary<Person, string> people = new Dictionary<Person, string>();
-        Person person = new Person { Name = "Alice", Age = 30 };
-=======
 ```
 
 ```csharp
 HashSet<Person> people = new HashSet<Person>();
 Person person = new Person { Name = "Alice", Age = 30 };
->>>>>>> origin/main
 
-        people.Add(person, "Developer"); // Add object to collection
+people.Add(person); // Add object to collection
 
-        Console.WriteLine(people.ContainsKey(person)); // True
+Console.WriteLine(people.Contains(person)); // True
 
-        person.Age = 31; // Change the Age property
+person.Age = 31; // Change the Age property
 
-<<<<<<< HEAD
-        Console.WriteLine(people.ContainsKey(person)); // False, because the hash code changed
-		people.Contains(p2); //false
-
-    }
-}
-
-=======
 Console.WriteLine(people.Contains(person)); // False, because the hash code changed
->>>>>>> origin/main
 ```
 ### Solutions
 ##### Immutability:
@@ -135,4 +119,3 @@ people.Remove(person);
 people.Add(updatedPerson);
 
 Console.WriteLine(people.Contains(updatedPerson)); // True
-```
