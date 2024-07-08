@@ -13,7 +13,7 @@ The foundation for creating all [collections](https://learn.microsoft.com/en-us/
 - **Hashtable:**  
     A collection class representing a hash table and storing a set of "key-value" pairs.
 - **Queue:**  
-    A queue class operating on the FIFO (first in, first out) principle. Implements the `ICollection` and `IEnumerable` interfaces.
+    A [[queue]] class operating on the FIFO (first in, first out) principle. Implements the `ICollection` and `IEnumerable` interfaces.
 - **SortedList:**  
     A collection class storing sets of "key-value" pairs sorted by the key. Implements the `ICollection`, `IDictionary`, and `IEnumerable` interfaces.
 - **Stack:**  

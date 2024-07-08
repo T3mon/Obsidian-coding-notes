@@ -10,6 +10,7 @@
 | Insertion (in the middle) | O(n) (O(1) if we have a pointer to the node before the new node)           |
 | Deletion (last element)   | O(n)                                                                       |
 | Deletion (from middle)    | O(n) (O(1) if we have a pointer to the node before the node to be deleted) |
+|                           |                                                                            |
 ### Doubly Linked List
 ![[Pasted image 20240708190155.png]]
 
