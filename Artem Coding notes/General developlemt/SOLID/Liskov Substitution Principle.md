@@ -41,7 +41,6 @@ public class Program
     }
 }
 ```
-
 In this example, both Rectangle and Square inherit from Shape and implement the Area() method. They can be used interchangeably wherever a Shape is expected, adhering to the LSP.
 ## 2. Incorrect LSP implementation:
 ```csharp
@@ -75,7 +74,7 @@ public class Program
 ```
 
 In this example, Ostrich violates LSP because it can't be substituted for Bird without causing unexpected behavior (throwing an exception).
-3. A more practical example:
+## 3. A more practical example:
 ```csharp
 public interface IRepository<T>
 {
@@ -123,7 +122,6 @@ public class Program
     }
 }
 ```
-
 In this example, both ReadOnlyRepository and AuditedRepository adhere to the LSP. They can be used interchangeably wherever an IRepository is expected, with AuditedRepository adding extra functionality without breaking the contract.
 
 Key points to remember about LSP:
@@ -133,5 +131,4 @@ Key points to remember about LSP:
 4. Preconditions can't be strengthened in a subtype.
 5. Postconditions can't be weakened in a subtype.
 6. Invariants of the supertype must be preserved in the subtype.
-
 By adhering to the Liskov Substitution Principle, you create more robust and flexible software designs that are easier to extend and maintain over time.

@@ -5,7 +5,7 @@
 	- Reference and value types, [Garbage Collection](https://www.youtube.com/watch?v=BeuNvhd1L_g&ab_channel=CodingTutorials)
 	- Control flow (conditionals, loops)
 	- [[Generics]]
-	- Exception handling
+	- [[Exception handling]]
 	- [[Delegates, events, funcs and action]]
 	- Assemblies
 	- JIT and CLR

@@ -1,6 +1,16 @@
 #1 Reference: [https://dotnetos.org/blog/2022-03-28-dictionary-implementation/](https://dotnetos.org/blog/2022-03-28-dictionary-implementation/ "https://dotnetos.org/blog/2022-03-28-dictionary-implementation/") 
 #2 Reference: https://habr.com/ru/articles/198104/
 ![[Pasted image 20240707160854.png]]
+
+| Operation                           | Time Complexity                                |
+| ----------------------------------- | ---------------------------------------------- |
+| Accessing a value by key            | O(1) on average, O(n) in worst case            |
+| Adding a new key-value pair         | O(1) on average, O(n) in worst case            |
+| Updating an existing key-value pair | O(1) on average, O(n) in worst case            |
+| Checking if a key exists            | O(1) on average, O(n) in worst case            |
+| Removing a key-value pair           | O(1) on average, O(n) in worst case            |
+| Iterating over all key-value pairs  | O(n), where n is the number of key-value pairs |
+`Dictionary` class, which is based on a hash table, has an average time complexity of O(1) for most operations, and a worst-case time complexity of O(n) when there are a lot of hash collisions.
 ## Implementation
 The most important implementation elements of the `Dictionary<TKey, TValue>`:
 - `buckets` - set of elements with similar hashes
