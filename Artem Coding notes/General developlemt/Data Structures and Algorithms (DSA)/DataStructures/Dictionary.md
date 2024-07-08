@@ -119,4 +119,3 @@ people.Remove(person);
 people.Add(updatedPerson);
 
 Console.WriteLine(people.Contains(updatedPerson)); // True
-```
