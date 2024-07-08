@@ -2,28 +2,26 @@
 ### Singly Linked List
 ![[Pasted image 20240708185417.png]]
 
-| Operation                 | Time Complexity |
-| ------------------------- | --------------- |
-| Access by index           | O(n)            |
-| Search                    | O(n)            |
-| Insertion (at the end)    | O(n)            |
-| Insertion (in the middle) | O(n)            |
-| Deletion (last element)   | O(n)            |
-| Deletion (from middle)    | O(n)            |
-
-
-## Doubly Linked List
+| Operation                 | Time Complexity                                                            |
+| ------------------------- | -------------------------------------------------------------------------- |
+| Access by index           | O(n)                                                                       |
+| Search                    | O(n)                                                                       |
+| Insertion (at the end)    | O(1) if we have a pointer to the last node, otherwise O(n)                 |
+| Insertion (in the middle) | O(n) (O(1) if we have a pointer to the node before the new node)           |
+| Deletion (last element)   | O(n)                                                                       |
+| Deletion (from middle)    | O(n) (O(1) if we have a pointer to the node before the node to be deleted) |
+### Doubly Linked List
 ![[Pasted image 20240708190155.png]]
 
-| Operation                 | Time Complexity                                                    |
-| ------------------------- | ------------------------------------------------------------------ |
-| Access by index           | O(n)                                                               |
-| Search                    | O(n)                                                               |
-| Insertion (at the end)    | O(1)                                                               |
-| Insertion (in the middle) | O(n) (O(1) Если мы имеем указатель на Node перед или после нового) |
-| Deletion (last element)   | O(1)                                                               |
-| Deletion (from middle)    | O(1) (given node)                                                  |
-#### Methods
+| Operation                 | Time Complexity                                                           |
+| ------------------------- | ------------------------------------------------------------------------- |
+| Access by index           | O(n)                                                                      |
+| Search                    | O(n)                                                                      |
+| Insertion (at the end)    | O(1)                                                                      |
+| Insertion (in the middle) | O(n) (O(1) if we have a pointer to the node before or after the new node) |
+| Deletion (last element)   | O(1)                                                                      |
+| Deletion (from middle)    | O(n) (O(1) if we have a pointer to the node to be deleted)                |
+#### C# Methods
 
 | Method                                                                                                               | Description                                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -48,5 +46,3 @@
 | **[RemoveFirst()](https://www.geeksforgeeks.org/c-removing-the-node-at-the-start-of-the-linkedlistt/)**              | Removes the node at the start of the LinkedList.                                                                         |
 | **[RemoveLast()](https://www.geeksforgeeks.org/c-removing-the-node-at-the-end-of-linkedlistt/)**                     | Removes the node at the end of the LinkedList.                                                                           |
 | **ToString()**                                                                                                       | Returns a string that represents the current object.                                                                     |
-
-**Example:**
