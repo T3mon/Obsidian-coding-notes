@@ -3,7 +3,7 @@
 	- [[Object-oriented programming]] (classes, objects, interfaces, [[Concepts of OOP#Heading 4|inheritance, polymorphism]])
 	- [[Variables, data types, and operators]]
 	- [[Reference and value types]], [Garbage Collection](https://www.youtube.com/watch?v=BeuNvhd1L_g&ab_channel=CodingTutorials)
-	- Control flow (conditionals, loops)
+	- [[Control flow (conditionals, loops)]]
 	- [[Generics]]
 	- [[Exception handling]]
 	- [[Delegates, events, funcs and action]]
