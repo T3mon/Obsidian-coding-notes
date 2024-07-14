@@ -17,6 +17,6 @@
 	- [ ] Database witch is not sql server
 	- [ ] Some type of monetezation?
 Optional:
-- Backgound tasks
+- Background tasks
 - Indexes
 - smtp, some type of email sending?
