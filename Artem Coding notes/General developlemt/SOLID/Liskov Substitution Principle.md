@@ -72,7 +72,6 @@ public class Program
     }
 }
 ```
-
 In this example, Ostrich violates LSP because it can't be substituted for Bird without causing unexpected behavior (throwing an exception).
 ## 3. A more practical example:
 ```csharp
