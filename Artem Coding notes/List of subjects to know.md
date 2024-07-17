@@ -43,7 +43,7 @@
 4. **[Databases](https://github.com/milanm/DotNet-Developer-Roadmap#5-databases)**
 	- Basics of Database design (normal forms, keys, relationships, Difference Between Inner, Left, Right, and Full Join)
 	- SQL Queries Execution Order
-	- Query Optimizer Indexes and Caching
+	- Query Optimizer Indexes, Caching, [[Partitioning and Sharding]]
 	- Transactions and ACID
 	- Relational and NoSQL databases
 	- GraphQL
