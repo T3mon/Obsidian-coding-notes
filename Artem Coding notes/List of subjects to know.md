@@ -10,7 +10,7 @@
 	- Assemblies
 	- JIT and CLR
 	- [[Collections]] and [[LINQ]]
-		- Async and await for asynchronous programming
+	- Async and await for asynchronous programming
 2.  **.NET libraries and APIs**
 	- File I/O and serialization
 	- Collections and data structures
