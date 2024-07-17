@@ -1,4 +1,3 @@
-
 ### Singly Linked List
 ![[Pasted image 20240708185417.png]]
 
