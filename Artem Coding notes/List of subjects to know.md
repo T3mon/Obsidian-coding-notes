@@ -3,7 +3,7 @@
 	- [[Object-oriented programming]] (classes, objects, interfaces, [[Concepts of OOP#Heading 4|inheritance, polymorphism]])
 	- [[Variables, data types, and operators]]
 	- [[Reference and value types]], [Garbage Collection](https://www.youtube.com/watch?v=BeuNvhd1L_g&ab_channel=CodingTutorials)
-	- Control flow (conditionals, loops)
+	- [[Control flow (conditionals, loops)]]
 	- [[Generics]]
 	- [[Exception handling]]
 	- [[Delegates, events, funcs and action]]
@@ -43,7 +43,7 @@
 4. **[Databases](https://github.com/milanm/DotNet-Developer-Roadmap#5-databases)**
 	- Basics of Database design (normal forms, keys, relationships, Difference Between Inner, Left, Right, and Full Join)
 	- SQL Queries Execution Order
-	- Query Optimizer Indexes and Caching
+	- Query Optimizer Indexes, Caching, [[Partitioning and Sharding]]
 	- Transactions and ACID
 	- Relational and NoSQL databases
 	- GraphQL
